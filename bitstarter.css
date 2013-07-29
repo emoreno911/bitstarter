@@ -1,0 +1,234 @@
+/*Stylesheet by emoreno911*/
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/css?family=Racing+Sans+One);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+body{
+  font-family: 'Open Sans', 'Helvetica', verdana;
+}
+h3, h4, h5, h6 {
+  font-family: 'Roboto', 'Helvetica', verdana;
+}
+/* CUSTOMIZE BOOTSTRAP 
+-------------------------------------------------- */
+
+/* Custom container */
+.container {
+  margin: 0 auto;
+  /*max-width: 1000px;*/
+}
+
+  /* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  margin-top: 20px;
+  margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+}
+.navbar-wrapper .navbar {
+
+}
+
+/* Remove border and change up box shadow for more contrast */
+.navbar .navbar-inner {
+  border: 0;
+  -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+     -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+          box-shadow: 0 2px 10px rgba(0,0,0,.25);
+}
+
+/* Downsize the brand/project name a bit */
+.navbar .brand {
+  padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
+  font-size: 16px;
+  font-weight: normal;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+  font-family: 'Pacifico', 'Helvetica';
+}
+
+/* Navbar links: increase padding for taller navbar */
+.navbar .nav > li > a {
+  padding: 15px 20px;
+}
+
+/* Offset the responsive button for proper vertical alignment */
+.navbar .btn-navbar {
+  margin-top: 10px;
+}
+
+/*New Button CLASS*/
+.btn-getstarted {
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #BEA800;
+    background-image: -moz-linear-gradient(top, #E0E062, #BEA800);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#E0E062), to(#BEA800));
+    background-image: -webkit-linear-gradient(top, #E0E062, #BEA800);
+    background-image: -o-linear-gradient(top, #E0E062, #BEA800);
+    background-image: linear-gradient(to bottom, #E0E062, #BEA800);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffE0E062', endColorstr='#ffBEA800', GradientType=0);
+    border-color: #BEA800 #BEA800 #ad6704;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+.btn-getstarted:hover{
+  color: white;
+  background-color: #BEA800;
+}
+
+
+/* Main marketing message and sign up button
+------------------------------------------------- */
+.marketing-wrapper {
+  padding-top: 20px;
+  width: 100%;
+  background-color:#554179;
+  background-image: linear-gradient(rgba(0,0,0,0.1) 2px, transparent 2px),
+  linear-gradient(90deg, rgba(0,0,0,0.1) 2px, transparent 2px),
+  linear-gradient(rgba(0,0,0,.2) 1px, transparent 1px),
+  linear-gradient(90deg, rgba(0,0,0,.2) 1px, transparent 1px);
+  background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
+  background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
+
+.market-divider {
+  min-height: 10px;
+  background-color: rgba(58, 42, 83, 0.5);
+}
+
+.jumbotron {
+  margin: 40px 0;
+  text-align: center;
+  color: white;
+}
+.jumbotron h2 {
+  font-family: 'Racing Sans One';
+  font-size: 4em;
+  line-height: 1;
+}
+.jumbotron .lead {
+  font-size: 24px;
+  line-height: 1.25;
+}
+.jumbotron .btn-jumbo {
+  font-size: 21px;
+  padding: 14px 24px;
+} 
+
+/*Content Area
+----------------------------------------------------*/ 
+.heading, .subheading {
+  font-family: 'Roboto', 'Helvetica', verdana;
+  text-align: center;
+}
+
+p.lead{
+  font-size: 24px;
+  line-height: 30px;
+  padding-top: 1.5%;
+}
+
+p {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.question {
+  margin-top: 1.5em;
+  font-size: 1.3em;
+  font-style: italic;
+  color: #554179;
+  text-align: center;
+}
+
+.pitch {
+  padding: 2.5% 0%;
+}
+.order{
+  padding: 2% 0%;
+}
+.actions{
+  padding: 3% 0%;
+  background-color: #343434
+}
+.video{margin-bottom: 10px;}
+
+.video, .thermometer, .social, .order, .statistics {
+  text-align: center;
+}
+
+.statistics h3, .statistics p {
+  color: white;
+}
+
+.copy {
+  text-align: justify;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+
+.asset{
+  padding: 2.5% 0%;
+}
+
+.footer {
+  margin-top: 15px;
+  padding-top: 15px;
+  background-color: #444;
+  color: #cccccc;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 11px;
+}
+
+.footer a {
+  color: #ccccff;
+}
+
+  /* MEDIA QUERIES
+-------------------------------------------------- */
+@media (max-width: 979px) {
+  .container.navbar-wrapper {
+    margin-bottom: 0;
+    width: auto;
+  }
+  .navbar-inner {
+    border-radius: 0;
+    margin: -20px 0;
+  } 
+}
+
+@media (max-width: 767px) {
+  body{
+    font-family: 'Roboto', 'Helvetica', verdana;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .container{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .navbar-inner {
+    margin: -20px;
+  }
+  .btn {
+    margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .copy{
+    padding: 2.5% 10%;
+  }
+}
+
+@media (max-width: 650px){
+  .asset2, .asset {text-align: center; margin-bottom: 8px;}
+}
