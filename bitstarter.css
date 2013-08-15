@@ -110,10 +110,12 @@ h3, h4, h5, h6 {
   font-family: 'Racing Sans One';
   font-size: 4em;
   line-height: 1;
+  text-shadow: 0.1em 0.1em 0.05em #333
 }
 .jumbotron .lead {
   font-size: 24px;
   line-height: 1.25;
+  color: #E0C600;
 }
 .jumbotron .btn-jumbo {
   font-size: 21px;
@@ -190,6 +192,11 @@ p {
 
 .footer a {
   color: #ccccff;
+}
+
+div.addthis_toolbox {
+  width:180px;
+  margin: 0 auto;
 }
 
   /* MEDIA QUERIES
